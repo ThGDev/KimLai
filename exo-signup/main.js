@@ -3,7 +3,7 @@ const colorPicker = document.querySelector("#color-picker");
 const userName = document.querySelector("#username");
 const password = document.querySelector("#password");
 const confirmPassword = document.querySelector("#confirm-password");
-
+const divErrMsg = document.querySelector("#error-message");
 
 function bgColorChange() {
   document.body.style.backgroundColor = colorPicker.value;
